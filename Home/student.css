@@ -1,0 +1,163 @@
+@charset "utf-8";
+
+/* Navigation bar */
+#sideNav{
+    width: 146.5px;
+    height: 100vh;
+    position: fixed;
+    left: -250px;
+    top: 0;
+    background: #006600;
+    z-index: 2;
+    transition: 0.5s;
+}
+
+h2{
+    padding-left: 600px;
+    font-size: 50px;
+    color: white;
+}
+
+#menuBtn{
+    width: 25px;
+    position: fixed;
+    left: 165px;
+    top: 25px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+body{
+    background-color:#9e9e9e; 
+    margin:0;
+    background-size: cover;
+}
+
+/*Right Side*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header-text{
+    margin-top: 100px;
+    margin-left: 280px;   
+}
+
+#sideNav{
+    width: 146.5px;
+    height: 100vh;
+    position: fixed;
+    left: -250px;
+    top: 0;
+    background: #000000;
+    z-index: 2;
+    transition: .5s;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#menuBtn{
+    width: 25px;
+    position: fixed;
+    left: 165px;
+    top: 25px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+table {
+    margin-left: 10rem;
+    margin-top: 2rem;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+}
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.update-btn{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+.delete-btn{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+
+/*Form*/
+.signup-form{
+    width: 350px;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.signup-form h3{
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+
+.signup-form p{
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.signup-form input{
+    font-size: 15px;
+    width: 100%;
+    padding: 10px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+
+.signup-form button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.male{
+    margin-left: -10rem;
+   
+}
+.male-radio{
+    margin-left: -10rem;
+}
+
+.female{
+    margin-left: -10rem;
+}
+.female-radio{
+    margin-left: -3rem;
+}

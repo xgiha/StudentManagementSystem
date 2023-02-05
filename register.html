@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Signup Form</title>
+        <link rel="stylesheet" type="text/css" href="style2.css">
+    </head>
+    <body>
+        <div class="signup-form">
+            <h1>Sign up</h1>
+            <form action="register.php" method="POST">
+                <p>Full Name</p>
+                <input type="text" name="Fullname" placeholder="Fullname">
+
+                <p>Username</p>
+                <input type="text" name="Username" placeholder="Username">
+
+                <p>DOB</p>
+                <input type="text" name="DOB" placeholder="MM/DD/YYYY">
+
+                <p>Please select your gender:</p>
+                <label for="Gender">Gender:</label>
+                <select name="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                </select>
+
+                <p>Email</p>
+                <input type="email" name="Email" placeholder="Email">
+
+                <p>Password</p>
+                <input type="password" name="Password" placeholder="Password">
+
+                <p>Confirm Password</p>
+                <input type="password" name="CPassword" placeholder="Confirm Password">
+                <button type="submit"  name="submit"> Sign Up</button>
+            </form>
+        </div>
+    </body>
+</html>

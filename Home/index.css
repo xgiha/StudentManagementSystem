@@ -1,0 +1,213 @@
+body,html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: black;
+    height: 10rem;
+}
+
+.logo{
+    margin-left: 47%;
+    margin-top: 15px;
+}
+
+.name{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: .1px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(212, 255, 93);
+}
+
+.nav li {
+    float: left;
+}
+
+.sign-up{
+    margin-left: .2rem;
+}
+.sign-in{
+    margin-left: .1rem;
+}
+.our-courses{
+    margin-left: .1em;
+}
+.about-us{
+    margin-left: .2rem;
+}
+.home{
+    margin-left: 23rem;
+}
+
+.nav li a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.nav li a:hover {
+    background-color: rgb(8, 106, 252);
+    transition: all 1s;
+}
+
+.boy{
+    position: relative;
+    opacity: 0.6;
+}
+
+.girl{
+    position: relative;
+    opacity: 0.6;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.container img{
+    width: 94.95rem;
+    height: 50rem;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 15rem;
+    right: -40rem;
+    background-color: black;
+    color: white;
+    padding-left: 15px;
+    padding-right: 20px;
+}
+
+.container .btn{
+    position: absolute;
+    top: 60%;
+    left: 35rem;
+    transform: translate(-50%, -50%);
+    background-color: tomato;
+    color: #000;
+    font-size: 25px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.container .btn:hover{
+    background-color: thistle;
+}
+
+.container .btn2{
+    position: absolute;
+    top: 60%;
+    left: 55rem;
+    transform: translate(-50%, -50%);
+    background-color: tomato;
+    color: #000;
+    font-size: 25px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.container .btn2:hover{
+    background-color: thistle;
+}
+
+.inner-footer{
+    margin: 0;
+    padding: 0;
+    background-color: #272727;
+}
+
+.social-links{
+    display: flex;
+}
+
+.social-links ul{
+    padding: 20px;
+    display: flex;
+    width: 300px;
+    height: 30px;
+    margin: auto;
+}
+
+.social-items{
+    list-style: none;
+}
+
+.social-items a{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 35px;
+    color: #6cccc6;
+    transition: all .25s;
+}
+
+.social-items a:hover{
+    color: white;
+}
+
+.quick-links{
+    display: flex;
+    width: 560px;
+    height: 70px;
+    margin: auto;
+}
+
+.quick-links ul{
+    display: flex;
+}
+
+.quick-items{
+    list-style: none;
+}
+
+.quick-items a{
+    text-decoration: none;
+    padding: 0px 15px;
+    list-style: none;
+    padding: 18px;
+    color: white;
+    transition: all .25s;
+}
+
+.quick-items a:hover{
+    color: #6cccc6;
+}
+
+.outer-footer{
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    background-color: #3f3f3f;
+}
